@@ -31,9 +31,9 @@ const Sidebar = () => {
 
   return (
     <div className="flex h-screen">
-      <div className="h-screen min-w-[51px] flex flex-col justify-between bg-white relative">
+      <div className="h-screen  w-[51px] min-w-[51px] max-w-[51px] flex flex-col justify-between bg-white relative">
         {showToast && (
-          <div className="fixed bottom-4 right-4 bg-white shadow-lg rounded-lg p-4 flex items-center gap-3 border border-gray-200 animate-slide-up z-50">
+          <div className="fixed  bottom-4 right-4 bg-white shadow-lg rounded-lg p-4 flex items-center gap-3 border border-gray-200 animate-slide-up z-50">
             <div className="flex-1">
               <p className="text-sm font-medium text-gray-900">Coming Soon!</p>
               <p className="text-xs text-gray-500">This feature will be available soon. Contact support for updates.</p>
@@ -47,8 +47,8 @@ const Sidebar = () => {
           </div>
         )}
 
-        <div>
-          <div className="flex flex-col gap-4 py-[20px] pl-[5px]">
+        <div className='w-[51px] min-w-[51px] max-w-[51px]'>
+          <div className="w-[51px] min-w-[51px] max-w-[51px] flex flex-col gap-4 py-[20px] pl-[5px]">
             <Link 
               href="/"
               onClick={() => handleLinkClick(0)}
@@ -107,7 +107,7 @@ const Sidebar = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-[10px] p-4">
+        <div className="flex flex-col gap-[10px] p-1">
           <Link 
             href="/profile"
             onClick={handleDisabledClick}
