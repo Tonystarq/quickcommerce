@@ -17,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${mulish.className} antialiased`}>
+      <body className={`${mulish.className} antialiased bg-black`}>
         <ReduxProvider>
           <DisclaimerDialog />
           <MainWrapper>{children}</MainWrapper>

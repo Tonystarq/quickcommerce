@@ -51,7 +51,7 @@ export default function MainWrapper({ children }) {
   }
 
   return (
-    <div className="flex min-h-screen max-w-[1440px] mx-auto">
+    <div className="flex min-h-screen max-w-[1440px] mx-auto bg-white">
       <Sidebar />
       <main className="flex-1 bg-[#EBEBEB] max-h-screen w-full rounded-md mx-[20px] mt-[20px]">
         {children}
