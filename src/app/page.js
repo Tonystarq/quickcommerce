@@ -18,15 +18,17 @@ export default function Home() {
       <div className='overflow-y-auto scrollbar-hide h-[calc(100vh-180px)]'>
         {activeTab === 'blinkit' && <VariousCharts/>}
         <DataLevelTables 
+        header="SKU Level Data" 
+        subheader="Analytics for all your SKUs"
+        data={tableDataSKU} 
+        style="underline"
+      />
+        <DataLevelTables 
           header="City Level Data" 
           subheader="Analytics for all your Cities"
           data={tableDataCity} 
         />
-        <DataLevelTables 
-          header="SKU Level Data" 
-          subheader="Analytics for all your SKUs"
-          data={tableDataSKU} 
-        />
+      
       </div>
     </div>
   );
