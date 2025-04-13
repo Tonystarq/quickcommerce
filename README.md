@@ -12,11 +12,17 @@ For the best experience:
 - Or use dev tools to adjust viewport
 - This is a non-responsive design (task requirement)
 
-
-
 ## 🎥 Demo
 
-![Feature Demo](https://quickcommerce-black.vercel.app/)
+### [Live Demo](https://quickcommerce-black.vercel.app/)
+
+Try out the live version of Quick Commerce Dashboard. The demo showcases all features including:
+- Real-time data visualization
+- SKU management interface
+- Analytics dashboard
+- Interactive tables and charts
+
+> **Note**: Remember to set viewport to 440px for optimal viewing experience
 
 ## 🛠️ Tech Stack
 
