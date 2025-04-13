@@ -12,26 +12,11 @@ For the best experience:
 - Or use dev tools to adjust viewport
 - This is a non-responsive design (task requirement)
 
-## 📸 Screenshots
 
-<div align="center">
-  <img src="./public/readme/table-view.png" alt="Table View" width="600"/>
-  <p><em>SKU Management Table with Analytics</em></p>
-</div>
-
-<div align="center">
-  <img src="./public/readme/charts.png" alt="Analytics Charts" width="600"/>
-  <p><em>Sales and Performance Analytics</em></p>
-</div>
-
-<div align="center">
-  <img src="./public/readme/mobile.png" alt="Mobile View" width="300"/>
-  <p><em>440px Viewport Display</em></p>
-</div>
 
 ## 🎥 Demo
 
-![Feature Demo](./public/readme/demo.gif)
+![Feature Demo](https://quickcommerce-black.vercel.app/)
 
 ## 🛠️ Tech Stack
 
