@@ -57,7 +57,7 @@ Try out the live version of Quick Commerce Dashboard. The demo showcases all fea
 
 1. **Clone the repository**
    ```bash
-   git clone [repository-url]
+   git clone https://github.com/Tonystarq/quickcommerce
    ```
 
 2. **Install dependencies**
